@@ -1,0 +1,28 @@
+.code-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  margin: 1rem 0;
+  font-family: monospace;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.code-actions button {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+}

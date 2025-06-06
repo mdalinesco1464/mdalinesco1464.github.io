@@ -1,0 +1,10 @@
+<div class="code-box">
+  <div class="code-header">
+    <span>{{ include.title }}</span>
+    <div class="code-actions">
+      <button onclick="copyCode(this)">📋 Copy</button>
+      <button onclick="editCode(this)">✏️ Edit</button>
+    </div>
+  </div>
+  <pre><code contenteditable="false">{{ include.code }}</code></pre>
+</div>

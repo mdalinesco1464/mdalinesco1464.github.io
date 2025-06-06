@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Insert your style from index.html here or link a CSS file */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header, footer, section {
+      padding: 1rem;
+    }
+    nav a {
+      color: #58a6ff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    #searchBar {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script>
+    const searchBar = document.getElementById('searchBar');
+    if (searchBar) {
+      searchBar.addEventListener('input', function () {
+        const query = this.value.toLowerCase();
+        document.querySelectorAll('section').forEach(section => {
+          section.style.display = section.innerText.toLowerCase().includes(query) || section.id.includes('contact') ? 'block' : 'none';
+        });
+      });
+    }
+  </script>
+</body>
+</html>
