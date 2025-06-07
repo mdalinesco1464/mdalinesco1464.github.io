@@ -14,7 +14,16 @@ title: Cybersecurity Portfolio
     <ul>
       <li><strong>Packet Sniffer</strong> — A Python-based packet capture and protocol analyzer. <a href="https://github.com/yourusername/PacketSniffer" target="_blank">GitHub</a></li>
       <li><strong>Firewall Log Analyzer</strong> — Analyze and visualize firewall logs for anomalies. <a href="https://github.com/yourusername/FirewallAnalyzer" target="_blank">GitHub</a></li>
+
     </ul>
+
+<div class="code-box">
+  <div class="code-actions">
+    <button onclick="copyCode(this)">📋 Copy</button>
+    <button onclick="editCode(this)">✏️ Edit</button>
+  </div>
+  <pre><code>// your code here</code></pre>
+</div>
   </section>
   <section id="blue-team">
     <h2>🛡️ Blue Team & SOC</h2>

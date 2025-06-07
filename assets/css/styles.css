@@ -1,28 +1,43 @@
 .code-box {
-  border: 1px solid #ccc;
+  position: relative;
+  border: 1px solid #30363d;
   border-radius: 8px;
-  background: #f9f9f9;
+  background: #161b22;
   margin: 1rem 0;
-  font-family: monospace;
+  font-family: 'Courier New', monospace;
+  color: #c9d1d9;
+  overflow: hidden;
 }
 
-.code-header {
+.code-actions {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
   display: flex;
-  justify-content: space-between;
-  background: #eee;
-  padding: 0.5rem;
-  border-bottom: 1px solid #ccc;
+  gap: 0.5rem;
 }
 
 .code-actions button {
-  margin-left: 0.5rem;
-  background: none;
-  border: none;
+  background: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
+  font-size: 0.75rem;
+  transition: background 0.2s ease;
+}
+
+.code-actions button:hover {
+  background: #30363d;
 }
 
 pre {
   margin: 0;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem; /* add top padding for buttons */
   overflow-x: auto;
+  background: #0d1117;
+  border-top: 1px solid #30363d;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
