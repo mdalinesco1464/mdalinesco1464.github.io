@@ -1,0 +1,8 @@
+# Ignore bundler-related files and directories
+.bundle/
+vendor/
+*.gem
+_site/
+.sass-cache/
+Gemfile.lock
+Gemfile
