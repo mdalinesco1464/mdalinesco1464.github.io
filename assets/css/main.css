@@ -1,25 +1,4 @@
-     Source: /home/younus/mdalinesco1464.github.io
-      Destination: /home/younus/mdalinesco1464.github.io/_site
-      https://mdalinesco1464.github.io/
-
-      ls assets/css/  
-                    main.css  styles.css
-       
-       <link rel="stylesheet" href="/assets/css/main.css"> why not works 
-
-       why need base url relative url 
-
-       what is this 
-            <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-            _config.yml
-       title: Younus Ali Portfolio
-       description: Cybersecurity Projects and Blog
-
-
-
-       http://127.0.0.1:4000/assets/css/main.css
-       body {
+body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;

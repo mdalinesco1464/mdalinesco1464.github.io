@@ -1,2 +1,3 @@
 title: Younus Ali Portfolio
 description: Cybersecurity Projects and Blog
+baseurl: ""  # Very important for root projects

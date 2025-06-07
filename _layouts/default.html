@@ -1,82 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cybersecurity Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: "Cybersecurity Portfolio" }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <script src="https://asciinema.org/a/569558.js" id="asciicast-569558" async></script>
-  <link rel="stylesheet" href="/assets/css/styles.css">
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #0d1117;
-      color: #c9d1d9;
-    }
-    header {
-      background-color: #161b22;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    nav {
-      text-align: center;
-      margin-top: 1rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      color: #58a6ff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: #161b22;
-      border-radius: 8px;
-    }
-    h2 {
-      color: #58a6ff;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #0d1117;
-      font-size: 0.9rem;
-    }
-    .project {
-      margin-bottom: 1.5rem;
-    }
-    .project a {
-      color: #8b949e;
-      text-decoration: underline;
-    }
-    #searchBar {
-      width: 100%;
-      padding: 0.5rem;
-      margin: 1rem auto;
-      display: block;
-      border-radius: 6px;
-      border: none;
-    }
-    .asciinema {
-      margin-top: 1rem;
-    }
+      
+    /* your CSS here (copy from above) */
+
   </style>
 </head>
 <body>
   {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
+  {{ content }}
   {% include footer.html %}
- <script>
+
+  <script>
     const searchBar = document.getElementById('searchBar');
     searchBar.addEventListener('input', function () {
       const query = this.value.toLowerCase();
