@@ -7,6 +7,7 @@ author: "Younus"
 categories: [writeups, labs]
 tags: [log-analysis, linux, security]
 description: "Full Linux log investigation"
+permalink: /writeups/log-analysis/
 ---
 
 # 🧪 Log Analysis - June 01, 2025

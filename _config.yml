@@ -3,5 +3,10 @@ description: Cybersecurity Projects and Blog
 baseurl: ""  # Very important for root projects
 url: "https://mdalinesco1464.github.io"
 
+permalink: /:categories/:title/
+author: Younus Ali
+name: Younus Ali
+email:younusalicmt08@gmail.com
+
 # Enable future posts
 future: true
