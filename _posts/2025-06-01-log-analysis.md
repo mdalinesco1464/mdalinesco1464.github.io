@@ -9,6 +9,7 @@ tags: [log-analysis, linux, security, ELK, terminal, forensics]
 description: "Step-by-step log analysis walkthrough with screenshots, tools used, and key findings from a real-world Linux-based forensic investigation."
 ---
 
+
 ## Objectives
 - Understand the fundamentals of log analysis for security monitoring.
 - Identify and investigate suspicious activities using Linux logs.
