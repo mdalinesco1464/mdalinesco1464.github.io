@@ -3,7 +3,7 @@ description: Cybersecurity Projects and Blog
 baseurl: ""  # Very important for root projects
 url: "https://mdalinesco1464.github.io"
 
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 
 # Enable future posts
