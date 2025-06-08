@@ -66,14 +66,14 @@ title: Cybersecurity Portfolio
     <h2>🧪Writeups & Labs</h2>
     <ul>
       <li><a href="https://github.com/yourusername/CTF-Writeups" target="_blank">CTF Writeups</a></li>
-      <li><a href=https://github.com/mdalinesco1464/mdalinesco1464.github.io/blob/main/_posts/2025-06-01-log-analysis.md" target="_blank">DFIR Labs</a></li>
+      <li><a href="https://github.com/yourusername/SIEM-Detection-Lab" target="_blank">DFIR Labs</a></li>
     </ul>
   </section>
 <section id="blog">
   <h2>✍️ Blog</h2>
   <ul>
     {% for post in site.posts %}
-      <li><a href="_posts/2025-06-01-log-analysis.md">{{ post.title }}</a> - <small>{{ post.date | date: "%b %d, %Y" }}</small></li>
+      <li><a href="/2025/06/01/log-analysis/">{{ post.title }}</a> - <small>{{ post.date | date: "%b %d, %Y" }}</small></li>
     {% endfor %}
   </ul>
 </section>
